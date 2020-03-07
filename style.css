@@ -1,0 +1,83 @@
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Josefin+Sans:400,600,700,400italic,600italic);
+body { 
+  padding: 0;
+  margin: 0px;
+  font-family: Josefin Sans; 
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.hero-background {
+  display: flex;
+  background-image: url('https://images.unsplash.com/photo-1539632346654-dd4c3cffad8c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+  min-height: 100vh;
+  background-size: cover;
+}
+.hero-title-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.hero-topic a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+  padding-bottom: 40px;
+  font-family: 'Satisfy', cursive;
+  font-size: 4rem;
+}
+.input-btn {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    justify-content: space-between;
+    background:rgba(56,255,255,0.1);
+    opacity: .7;
+    padding: 50px;
+    border-radius: 15px;
+    border: solid 1px black;
+}
+
+input[type=text] {
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  /*margin: 5px 0 22px 0;*/
+  border: solid 0.5px black;
+  background: #f1f1f1;
+  border-radius: 10px;
+  outline: none;
+}
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  border: solid 1px white;
+  cursor: pointer;
+  width: 150px;
+  max-width: 400px;
+  font-family: Josefin Sans;
+  border-radius: 12px;
+  outline: none;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.answer-text {
+  display: none;
+  margin-top: 20px;
+  background: goldenrod;
+  color: white;
+  padding: 0 20px 0 20px;
+  border-radius: 15px;
+  border: solid 0.5px black;
+}
